@@ -1,6 +1,5 @@
 <x-app-layout>
     <x-slot name="header">
-        <img src="{{ asset('pblogo.png') }}" alt="PB Logo" style="max-width: 30px; height: auto;">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
         </h2>
